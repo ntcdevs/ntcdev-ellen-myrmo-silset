@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "ELLEN MYRMO-SILSET",
+    "city": "Trondheim",
+    "category": "other",
+    "phone": "+4794138040",
+    "email": "ellen.myrmosilset@gmail.com",
+    "address": "Nordre gate 22, 7011 Trondheim"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Profesjonelle Tjenester · Trondheim",
+    "headline": "Ellen",
+    "headlineAccent": "Myrmo-Silset",
+    "subheadline": "Dedikert til å levere kvalitet og personlig oppfølging for kunder i Trondheim og omegn — hver gang.",
+    "ctaText": "Ta Kontakt",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Personlig oppfølging"
+      },
+      {
+        "value": "5",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
-    "eyebrow": "Hva vi tilbyr",
-    "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "eyebrow": "Hva jeg tilbyr",
+    "heading": "Mine Tjenester",
+    "cta": "Kontakt meg i dag",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Rådgivning",
+        "desc": "Grundig og personlig rådgivning tilpasset dine behov og ønsker, med fokus på å finne de beste løsningene for deg.",
+        "icon": "Star",
+        "price": ""
+      },
+      {
+        "name": "Oppfølging og Veiledning",
+        "desc": "Tett oppfølging gjennom hele prosessen slik at du føler deg trygg og ivaretatt fra start til mål.",
+        "icon": "Heart",
+        "price": ""
+      },
+      {
+        "name": "Skreddersydde Løsninger",
+        "desc": "Jeg utvikler individuelle løsninger basert på din unike situasjon, med vekt på kvalitet og varige resultater.",
+        "icon": "Sparkles",
+        "price": ""
+      }
     ]
   },
   "about": {
-    "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "eyebrow": "Om Meg",
+    "heading": "Min Historie",
+    "body": "Jeg heter Ellen Myrmo-Silset og er basert i Trondheim, hvor jeg brenner for å hjelpe mennesker med profesjonell og engasjert innsats. Med over ti års erfaring har jeg bygget opp en solid kompetanse og et nettverk av fornøyde kunder i hele Trøndelag. For meg handler det om tillit, kvalitet og å alltid gå den ekstra milen for mine kunder.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Fornøyde kunder"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Engasjement"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
-    "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "heading": "Mitt Arbeid",
+    "subheading": "Et utvalg som viser kvaliteten og bredden i tjenestene jeg leverer."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Ingrid Bakken",
+        "role": "Fast kunde siden 2020",
+        "text": "Ellen er utrolig profesjonell og grundig i alt hun gjør. Jeg føler meg alltid trygg og godt ivaretatt, og kan varmt anbefale henne til alle.",
+        "rating": 5
+      },
+      {
+        "name": "Morten Aasen",
+        "role": "Kunde siden 2022",
+        "text": "Fantastisk oppfølging fra første kontakt. Ellen tar seg virkelig tid til å forstå hva man trenger, og leverer alltid over forventning.",
+        "rating": 5
+      },
+      {
+        "name": "Silje Nordvik",
+        "role": "Fast kunde siden 2019",
+        "text": "Jeg har brukt Ellen i flere år og er like imponert hver gang. Hennes dedikasjon og kompetanse er helt i toppklasse.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
-    "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "heading": "Kontakt Meg",
+    "subheading": "Har du spørsmål eller ønsker en uforpliktende samtale? Ikke nøl med å ta kontakt — jeg svarer gjerne."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
