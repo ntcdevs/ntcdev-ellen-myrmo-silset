@@ -133,7 +133,7 @@
   },
   "images": {
     "hero": "other/hero-01.jpg",
-    "about": "other/shop-01.jpg",
+    "about": "https://ubhmaudibilphahbrtyc.supabase.co/storage/v1/object/public/lead-assets/6bda6cad-823b-403e-ba57-3408707a5b96/about/microsoft-copilot-s_JJOnsIChs-unsplash.jpg",
     "gallery": [
       "other/shop-01.jpg",
       "other/shop-02.jpg",
